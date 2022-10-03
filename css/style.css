@@ -1,5 +1,89 @@
+:root{
+    --color-white: white;
+    --color-lightblue: #B4D0E7;
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+p{
+    padding: 2rem 0;
+}
+
+nav{
+    background-color: var(--color-white);
+}
+
+header{
+    background-color: var(--color-lightblue);
+}
+
+h1{
+    /* dallo screenshot non sembra sia utilizzato il text-align: center */
+    font-size: 6rem;
+}
+
+header .large-container img{
+    display: block;
+    width: 100%;
+}
+
+header .col-1 p:first-child{
+    padding-top: 0;
+}
+
+header .col-1 :last-child{
+    position: absolute;
+    bottom: 100px;
+    font-size: 4rem;
+}
+
+header .large-container{
+    position: relative;
+    top: 80px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.between-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.large-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    padding: 2rem 0;
+}
+
+.col-1{
+    width: 30%;
+}
+
+.col-2{
+    width: 70%;
 }
