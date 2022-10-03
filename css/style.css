@@ -4,6 +4,7 @@
   --color-lightgray: lightgray;
   --color-blue: #0161ff;
   --color-violet: #62092b;
+  --color-black: black;
 }
 
 * {
@@ -61,7 +62,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header ul {
@@ -143,6 +144,14 @@ main .bg-lightblue .flex-container {
 main section .small-container .line {
   width: 100%;
   margin: 0.5rem 0;
+}
+
+footer h3 {
+  padding-bottom: 1rem;
+}
+
+footer .flex-container {
+  gap: 0 1rem;
 }
 
 .space-between {
@@ -236,4 +245,18 @@ main section .small-container .line {
 
 .violet {
   color: var(--color-violet);
+}
+
+.bg-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 2rem;
+}
+
+.col-footer {
+  width: calc(100% / 5);
+}
+
+.padding-right {
+  padding-right: 1rem;
 }
