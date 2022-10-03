@@ -20,6 +20,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  background-color: var(--color-white);
 }
 
 ul {
@@ -47,8 +48,9 @@ p {
   padding: 2rem 0;
 }
 
-nav {
-  background-color: var(--color-white);
+nav img {
+  position: relative;
+  top: 0.5rem;
 }
 
 header {
