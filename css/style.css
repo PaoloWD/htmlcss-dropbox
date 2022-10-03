@@ -85,6 +85,10 @@ main .card h3{
     font-size: 2rem;
 }
 
+main .col-2 h3{
+
+}
+
 main .card button{
     margin: 1rem 0;
     width: 100%;
@@ -92,6 +96,10 @@ main .card button{
 
 main .card a{
     padding: 1rem 0;
+}
+
+main .card .col-2 p{
+    padding-bottom: 0;
 }
 
 .space-between{
@@ -139,6 +147,7 @@ main .card a{
 
 .txt-bold{
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 
 .month{
