@@ -140,6 +140,11 @@ main .bg-lightblue .flex-container {
   gap: 10rem;
 }
 
+main section .small-container .line {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
 .space-between {
   justify-content: space-between;
 }
