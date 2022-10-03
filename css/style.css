@@ -19,9 +19,17 @@ li {
   padding-bottom: 1rem;
 }
 
-a {
+header a {
   text-decoration: none;
   padding: 1rem;
+}
+
+main a {
+  padding: 2rem 0;
+}
+
+main li {
+  padding: 2rem 0;
 }
 
 p {
@@ -51,6 +59,10 @@ h2 {
   padding-bottom: 2rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 header ul {
   padding: 1rem;
 }
@@ -60,6 +72,11 @@ ul {
 }
 
 main img {
+  display: block;
+  width: 100%;
+}
+
+header .large-container img {
   display: block;
   width: 100%;
 }
@@ -82,9 +99,6 @@ header .large-container {
 main .card h3 {
   padding: 1rem 0;
   font-size: 2rem;
-}
-
-main .col-2 h3 {
 }
 
 main .card button {
@@ -144,6 +158,10 @@ main .flex-wrap .col-30 {
 
 .col-60 {
   width: 60%;
+}
+
+.col-50 {
+  width: 50%;
 }
 
 .card {
