@@ -3,6 +3,7 @@
   --color-lightblue: #b4d0e7;
   --color-lightgray: lightgray;
   --color-blue: #0161ff;
+  --color-violet: #62092b;
 }
 
 * {
@@ -134,6 +135,11 @@ main section .between-container {
   align-items: center;
 }
 
+main .bg-lightblue .flex-container {
+  align-items: baseline;
+  gap: 10rem;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -217,4 +223,12 @@ main section .between-container {
 
 .lightgray {
   background-color: lightsalmon;
+}
+
+.bg-lightblue {
+  background-color: var(--color-lightblue);
+}
+
+.violet {
+  color: var(--color-violet);
 }
