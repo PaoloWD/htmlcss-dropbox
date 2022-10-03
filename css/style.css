@@ -1,10 +1,11 @@
 :root {
   --color-white: white;
   --color-lightblue: #b4d0e7;
-  --color-lightgray: lightgray;
+  --color-lightgray: #d7d7d9;
   --color-blue: #0161ff;
   --color-violet: #62092b;
   --color-black: black;
+  --color-bglightgray: #f5f5f5;
 }
 
 * {
@@ -237,7 +238,8 @@ footer .flex-container {
 }
 
 .lightgray {
-  background-color: lightsalmon;
+  background-color: var(--color-bglightgray);
+  padding: 1.5rem;
 }
 
 .bg-lightblue {
@@ -262,4 +264,8 @@ button {
   border: none;
   padding: 0.5rem 2rem;
   background-color: var(--color-white);
+}
+
+.left {
+  padding-left: 15rem;
 }
