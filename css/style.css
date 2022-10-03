@@ -1,171 +1,173 @@
-:root{
-    --color-white: white;
-    --color-lightblue: #B4D0E7;
-    --color-lightgray: lightgray;
-    --color-blue: #0161FF;
-
+:root {
+  --color-white: white;
+  --color-lightblue: #b4d0e7;
+  --color-lightgray: lightgray;
+  --color-blue: #0161ff;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-li{
-    padding-bottom: 1rem;
+li {
+  padding-bottom: 1rem;
 }
 
-a{
-    text-decoration: none;
-    padding: 1rem;
+a {
+  text-decoration: none;
+  padding: 1rem;
 }
 
-p{
-    padding: 2rem 0;
+p {
+  padding: 2rem 0;
 }
 
-nav{
-    background-color: var(--color-white);
+nav {
+  background-color: var(--color-white);
 }
 
-header{
-    background-color: var(--color-lightblue);
-    margin-bottom: 3rem;
+header {
+  background-color: var(--color-lightblue);
+  margin-bottom: 3rem;
 }
 
-section{
-    padding: 3rem 0;
+section {
+  padding: 3rem 0;
 }
 
-h1{
-    /* dallo screenshot non sembra sia utilizzato il text-align: center */
-    font-size: 6rem;
+h1 {
+  /* dallo screenshot non sembra sia utilizzato il text-align: center */
+  font-size: 6rem;
 }
 
-h2{
-    font-size: 3rem;
-    padding-bottom: 2rem;
+h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
 }
 
-header ul{
-    padding: 1rem;
+header ul {
+  padding: 1rem;
 }
 
-ul{
-    padding-bottom: 1rem;
+ul {
+  padding-bottom: 1rem;
 }
 
-header .large-container img{
-    display: block;
-    width: 100%;
+main img {
+  display: block;
+  width: 100%;
 }
 
-header .col-1 p:first-child{
-    padding-top: 0;
+header .col-1 p:first-child {
+  padding-top: 0;
 }
 
-header .col-1 :last-child{
-    position: absolute;
-    bottom: 100px;
-    font-size: 4rem;
+header .col-1 :last-child {
+  position: absolute;
+  bottom: 100px;
+  font-size: 4rem;
 }
 
-header .large-container{
-    position: relative;
-    top: 80px;
+header .large-container {
+  position: relative;
+  top: 80px;
 }
 
-main .card h3{
-    padding: 1rem 0;
-    font-size: 2rem;
+main .card h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
 }
 
-main .col-2 h3{
-
+main .col-2 h3 {
 }
 
-main .card button{
-    margin: 1rem 0;
-    width: 100%;
+main .card button {
+  margin: 1rem 0;
+  width: 100%;
 }
 
-main .card a{
-    padding: 1rem 0;
+main .card a {
+  padding: 1rem 0;
 }
 
-main .card .col-2 p{
-    padding-bottom: 0;
+main .card .col-2 p {
+  padding-bottom: 0;
 }
 
-.space-between{
-    justify-content: space-between;
+.space-between {
+  justify-content: space-between;
 }
 
-.between-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.between-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.large-container{
-    max-width: 1200px;
-    margin: auto;
+.large-container {
+  max-width: 1200px;
+  margin: auto;
 }
 
-.small-container{
-    max-width: 920px;
-    margin: auto;
+.small-container {
+  max-width: 920px;
+  margin: auto;
 }
 
-.flex-container{
-    display: flex;
-    padding: 2rem 0;
+.flex-container {
+  display: flex;
+  padding: 2rem 0;
 }
 
-.col-1{
-    width: 30%;
+.col-30 {
+  width: 30%;
 }
 
-.col-2{
-    width: 70%;
+.col-70 {
+  width: 70%;
 }
 
-.card{
-    padding: 1rem;
+.col-60 {
+  width: 60%;
 }
 
-.header-card{
-    text-align: center;
-    padding: .5rem;
-    border-bottom: 1px solid var(--color-lightgray);
+.card {
+  padding: 1rem;
 }
 
-.txt-bold{
-    font-weight: bold;
-    padding-bottom: 1rem;
+.header-card {
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-lightgray);
 }
 
-.month{
-    font-style: italic;
-    color: var(--color-lightgray);
-    padding-bottom: 2rem;
+.txt-bold {
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 
-.line{
-    width: 30%;
-    border: 1px solid var(--color-lightgray);
-    margin-bottom: 2rem;
+.month {
+  font-style: italic;
+  color: var(--color-lightgray);
+  padding-bottom: 2rem;
 }
 
-.blue{
-    color: var(--color-blue);
+.line {
+  width: 30%;
+  border: 1px solid var(--color-lightgray);
+  margin-bottom: 2rem;
 }
 
-.border-lightgray{
-    border: 1px solid var(--color-lightgray);
+.blue {
+  color: var(--color-blue);
+}
+
+.border-lightgray {
+  border: 1px solid var(--color-lightgray);
 }
