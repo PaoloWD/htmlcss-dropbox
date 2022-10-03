@@ -29,7 +29,7 @@ main a {
 }
 
 main li {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 p {
@@ -76,9 +76,17 @@ main img {
   width: 100%;
 }
 
+main .between-container .col-30 h2 {
+  padding: 0;
+}
+
 header .large-container img {
   display: block;
   width: 100%;
+}
+
+main .between-container .flex-wrap img {
+  width: 45%;
 }
 
 header .col-1 p:first-child {
@@ -118,6 +126,14 @@ main .flex-wrap .col-30 {
   flex-grow: 1;
 }
 
+header .between-container {
+  align-items: center;
+}
+
+main section .between-container {
+  align-items: center;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -125,7 +141,6 @@ main .flex-wrap .col-30 {
 .between-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .large-container {
@@ -146,6 +161,7 @@ main .flex-wrap .col-30 {
 .flex-wrap {
   flex-wrap: wrap;
   gap: 1rem;
+  display: flex;
 }
 
 .col-30 {
@@ -188,7 +204,7 @@ main .flex-wrap .col-30 {
 .line {
   width: 30%;
   border: 1px solid var(--color-lightgray);
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .blue {
@@ -197,4 +213,8 @@ main .flex-wrap .col-30 {
 
 .border-lightgray {
   border: 1px solid var(--color-lightgray);
+}
+
+.lightgray {
+  background-color: lightsalmon;
 }
