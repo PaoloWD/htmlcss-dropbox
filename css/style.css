@@ -197,6 +197,7 @@ footer .flex-container {
 
 .col-30 {
   width: 30%;
+  align-items: center;
 }
 
 .col-70 {
@@ -278,4 +279,25 @@ button {
 
 .left {
   padding-left: 15rem;
+}
+
+.imgs-effect {
+  filter: blur();
+  text-align: -webkit-center;
+  width: 45%;
+}
+
+.logo-main {
+  width: 50%;
+  display: block;
+}
+
+.accordion {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgb(196, 196, 194);
 }
