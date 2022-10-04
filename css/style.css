@@ -27,7 +27,7 @@ ul {
   list-style: none;
 }
 
-li {
+footer li {
   padding-bottom: 1rem;
 }
 
@@ -48,9 +48,9 @@ p {
   padding: 2rem 0;
 }
 
-nav img {
-  position: relative;
-  top: 0.5rem;
+.logo {
+  display: block;
+  padding: 1rem;
 }
 
 header {
@@ -85,7 +85,7 @@ ul {
   padding-bottom: 1rem;
 }
 
-main img {
+img {
   display: block;
   width: 100%;
 }
@@ -94,16 +94,11 @@ main .between-container .col-30 h2 {
   padding: 0;
 }
 
-header .large-container img {
-  display: block;
-  width: 100%;
-}
-
 main .between-container .flex-wrap img {
   width: 45%;
 }
 
-header .col-1 p:first-child {
+header .col-30 p:first-child {
   padding-top: 0;
 }
 
@@ -132,7 +127,7 @@ main .card a {
   padding: 1rem 0;
 }
 
-main .card .col-2 p {
+main .card .col-70 p {
   padding-bottom: 0;
 }
 
@@ -173,6 +168,10 @@ footer .flex-container {
 .between-container {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
 }
 
 .large-container {
