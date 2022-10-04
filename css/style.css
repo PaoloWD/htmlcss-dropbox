@@ -31,6 +31,11 @@ footer li {
   padding-bottom: 1rem;
 }
 
+header ul {
+  display: flex;
+  align-items: center;
+}
+
 header a {
   text-decoration: none;
   padding: 1rem;
@@ -300,4 +305,40 @@ button {
 .active,
 .accordion:hover {
   background-color: rgb(196, 196, 194);
+}
+
+.sub-menu {
+  display: none;
+}
+
+header .between-container ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  margin-top: 1rem;
+  background-color: var(--color-white);
+}
+
+header .between-container ul li:hover .sub-menu ul {
+  display: block;
+  padding: 0.5rem 0;
+}
+
+header .between-container ul li:hover .sub-menu ul li {
+  width: 130px;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--color-black);
+}
+
+header .between-container ul li:hover .sub-menu ul li:last-child {
+  border: none;
+}
+
+header .between-container ul li:hover .sub-menu ul li a:hover {
+  color: var(--color-blue);
+  width: 100%;
+}
+
+header .between-container ul li:hover main {
+  opacity: 0.2;
 }
