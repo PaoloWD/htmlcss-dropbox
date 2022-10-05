@@ -99,10 +99,6 @@ main .between-container .col-30 h2 {
   padding: 0;
 }
 
-main .between-container .flex-wrap img {
-  width: 45%;
-}
-
 header .col-30 p:first-child {
   padding-top: 0;
 }
@@ -286,10 +282,17 @@ button {
   padding-left: 15rem;
 }
 
-.imgs-effect {
-  filter: blur();
-  text-align: -webkit-center;
+.box {
+  justify-content: center;
+  display: flex;
   width: 45%;
+  height: 45%;
+  align-items: center;
+}
+
+.imgs-effect {
+  width: 70%;
+  filter: invert();
 }
 
 .logo-main {
@@ -341,4 +344,29 @@ header .between-container ul li:hover .sub-menu ul li a:hover {
 
 header .between-container ul li:hover main {
   opacity: 0.2;
+}
+
+.green {
+  background-color: #a2d39b;
+  border: 20px solid #d2e9cd;
+}
+
+.bordeaux {
+  background-color: #62092b;
+}
+
+.bg-blue {
+  background-color: #0093ce;
+}
+
+.bg-red {
+  background-color: #ff1b1c;
+}
+
+.bg-bluestrong {
+  background-color: #0d2481;
+}
+
+.bg-yellow {
+  background-color: #ffd92f;
 }
